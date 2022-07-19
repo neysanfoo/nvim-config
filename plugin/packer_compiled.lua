@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Comment.nvim"] = {
+    loaded = true,
+    path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numtostr/Comment.nvim"
+  },
   ["DAPInstall.nvim"] = {
     loaded = true,
     path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/DAPInstall.nvim",
@@ -118,11 +123,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
-  },
-  ["comment.nvim"] = {
-    loaded = true,
-    path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/comment.nvim",
-    url = "https://github.com/numtostr/comment.nvim"
   },
   ["darkplus.nvim"] = {
     loaded = true,
