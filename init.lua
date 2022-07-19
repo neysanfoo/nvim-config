@@ -1,0 +1,6 @@
+require "neysan.options"
+require "neysan.keymaps"
+require "neysan.plugins"
+require "neysan.colorscheme"
+require "neysan.cmp"
+require "neysan.nvim-tree"
