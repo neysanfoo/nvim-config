@@ -82,3 +82,5 @@ keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
 -- Comment
 keymap("n", "<C-/>", "<cmd>lua require('Comment.api').toggle_current_linewise()<CR>", opts)
 keymap("x", "<C-/>", '<ESC><CMD>lua require("Comment.api").toggle_linewise_op(vim.fn.visualmode())<CR>', opts)
+
+
