@@ -1,1 +1,5 @@
 # nvim-config
+
+### Dependencies
+- Ripgrep
+
