@@ -1,19 +1,19 @@
-require "neysan.options"
-require "neysan.keymaps"
-require "neysan.plugins"
-require "neysan.colorscheme"
-require "neysan.cmp"
-require "neysan.nvim-tree"
-require "neysan.gitsigns"
-require "neysan.telescope"
-require "neysan.bufferline"
-require "neysan.autopairs"
-require "neysan.comment"
-require "neysan.toggleterm"
-require "neysan.treesitter"
-require "neysan.project"
-require "neysan.impatient"
-require "neysan.indentline"
-require "neysan.lualine"
-require "neysan.alpha"
-require "neysan.lsp"
+require("neysan.options")
+require("neysan.keymaps")
+require("neysan.plugins")
+require("neysan.colorscheme")
+require("neysan.cmp")
+require("neysan.nvim-tree")
+require("neysan.gitsigns")
+require("neysan.telescope")
+require("neysan.bufferline")
+require("neysan.autopairs")
+require("neysan.comment")
+require("neysan.toggleterm")
+require("neysan.treesitter")
+require("neysan.project")
+require("neysan.impatient")
+require("neysan.indentline")
+require("neysan.lualine")
+require("neysan.alpha")
+require("neysan.lsp")
