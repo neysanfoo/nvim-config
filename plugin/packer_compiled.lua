@@ -179,6 +179,11 @@ _G.packer_plugins = {
     path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
     url = "https://github.com/rcarriga/nvim-dap-ui"
   },
+  ["nvim-jdtls"] = {
+    loaded = true,
+    path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/nvim-jdtls",
+    url = "https://github.com/mfussenegger/nvim-jdtls"
+  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",

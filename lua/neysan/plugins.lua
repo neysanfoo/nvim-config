@@ -101,6 +101,9 @@ return packer.startup(function(use)
 	use("rcarriga/nvim-dap-ui")
 	use("Pocco81/DAPInstall.nvim")
 
+	-- Java
+	use("mfussenegger/nvim-jdtls")
+
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
 	end
