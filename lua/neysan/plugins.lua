@@ -84,7 +84,7 @@ return packer.startup(function(use)
 	use("williamboman/nvim-lsp-installer") -- simple to use language server installer
 	use("jose-elias-alvarez/null-ls.nvim") -- for formatters and linters
 	use("RRethy/vim-illuminate")
-	-- use "github/copilot.vim"
+	use("github/copilot.vim")
 
 	-- Telescope
 	use("nvim-telescope/telescope.nvim")
@@ -103,6 +103,9 @@ return packer.startup(function(use)
 
 	-- Java
 	use("mfussenegger/nvim-jdtls")
+
+	-- Coderunner
+	use({ "michaelb/sniprun", run = "bash ./install.sh" })
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()

@@ -124,6 +124,11 @@ _G.packer_plugins = {
     path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["darkplus.nvim"] = {
     loaded = true,
     path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
@@ -238,6 +243,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/project.nvim",
     url = "https://github.com/ahmedkhalf/project.nvim"
+  },
+  sniprun = {
+    loaded = true,
+    path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/sniprun",
+    url = "https://github.com/michaelb/sniprun"
   },
   ["telescope.nvim"] = {
     loaded = true,

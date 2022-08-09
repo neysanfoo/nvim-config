@@ -81,3 +81,6 @@ keymap("n", "<leader>fp", ":Telescope projects<CR>", opts)
 keymap("n", "<C-/>", "<cmd>lua require('Comment.api').toggle_current_linewise()<CR>", opts)
 keymap("x", "<C-/>", '<ESC><CMD>lua require("Comment.api").toggle_linewise_op(vim.fn.visualmode())<CR>', opts)
 
+-- Coderunner
+keymap("v", "<leader>rr", ":'<,'>SnipRun<CR>")
+keymap("n", "<leader>q", "ggVG:SnipRun<CR>")
