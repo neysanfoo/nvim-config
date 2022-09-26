@@ -22,7 +22,6 @@ vim.cmd([[
     autocmd BufWritePost plugins.lua source <afile> | PackerSync
   augroup end
 ]])
-
 -- Use a protected call so we don't error out on first use
 local status_ok, packer = pcall(require, "packer")
 if not status_ok then
@@ -43,7 +42,7 @@ return packer.startup(function(use)
 	-- My plugins here
 	use("wbthomason/packer.nvim") -- have packer manage itself
 	use("nvim-lua/popup.nvim")
-	use("nvim-lua/plenary.nvim") -- useful lua functions used ny lots of plugins
+	use("nvim-lua/plenary.nvim") -- useful lua functions used by lots of plugins
 	use("windwp/nvim-autopairs") -- autopairs, integrates with both cmp and treesitter
 	use("numtostr/Comment.nvim")
 	use("kyazdani42/nvim-web-devicons")
@@ -63,7 +62,7 @@ return packer.startup(function(use)
 	-- Colorschemes
 	use("folke/tokyonight.nvim")
 	use("lunarvim/darkplus.nvim")
-	use("lunarvim/onedarker.nvim")
+	use("neysanfoo/onedarker.nvim")
 
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp")
@@ -83,6 +82,7 @@ return packer.startup(function(use)
 	use("neovim/nvim-lspconfig") -- enable LSP
 	use("williamboman/nvim-lsp-installer") -- simple to use language server installer
 	use("jose-elias-alvarez/null-ls.nvim") -- for formatters and linters
+  
 	use("RRethy/vim-illuminate")
 	-- use "github/copilot.vim"
 
