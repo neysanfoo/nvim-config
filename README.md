@@ -13,31 +13,30 @@ Here is a brief summary of what each file does:
 - `options.lua`: This file sets up the various options for Neovim.
 - `keymaps.lua`: This file sets up key mappings to make Neovim easier to use.
 
-### Plugins
+## Plugins Used
 
-Here are the plugins used in the configuration:
+- [Packer](https://github.com/wbthomason/packer.nvim): A package manager for Neovim.
+- [Telescope](https://github.com/nvim-telescope/telescope.nvim): A fuzzy finder and sorter.
+- [Which Key](https://github.com/liuchengxu/vim-which-key): A plugin that shows you the available keybindings.
+- Color Schemes: [Gruvbox](https://github.com/morhetz/gruvbox), [Everforest](https://github.com/sainnhe/everforest), [Nightfox](https://github.com/EdenEast/nightfox.nvim), [Onedark](https://github.com/navarasu/onedark.nvim), [Catppuccin](https://github.com/Pocco81/Catppuccino.nvim)
+- [Cmp](https://github.com/hrsh7th/nvim-cmp) and its various plugins: Autocompletion plugins.
+- [LuaSnip](https://github.com/L3MON4D3/LuaSnip) and [Friendly Snippets](https://github.com/rafamadriz/friendly-snippets): Snippet engines.
+- [LSP](https://github.com/neovim/nvim-lspconfig) and [Mason](https://github.com/iamcco/mason.nvim): Language Server Protocols and their installer.
+- [Null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim): A plugin for formatters and linters.
+- [Illuminate](https://github.com/RRethy/vim-illuminate): Helps with highlighting references in the code.
+- [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter): Syntax highlighting and code understanding.
+- [Surround](https://github.com/tpope/vim-surround): Allows easy manipulation of "surroundings" in the code.
+- [TS AutoTag](https://github.com/windwp/nvim-ts-autotag) and [Autopairs](https://github.com/windwp/nvim-autopairs): Automatically closes XML/HTML tags and pairs of brackets/quotes.
+- [Copilot](https://github.com/github/copilot.vim): A code suggestion engine by GitHub.
+- [Nvim-Tree](https://github.com/kyazdani42/nvim-tree.lua): A file explorer.
+- [Project](https://github.com/ahmedkhalf/project.nvim): Project navigation.
+- [Comment](https://github.com/terrortylor/nvim-comment): Easy code commenting.
+- [Bufferline](https://github.com/akinsho/nvim-bufferline.lua): A better bufferline for Neovim.
+- [Lualine](https://github.com/hoob3rt/lualine.nvim): A light and configurable statusline/tabline for Neovim.
+- [Gitsigns](https://github.com/lewis6991/gitsigns.nvim): Shows git signs in the code.
+- [ToggleTerm](https://github.com/akinsho/nvim-toggleterm.lua): Terminal integration.
 
-- Packer: A package manager for Neovim.
-- Telescope: A fuzzy finder and sorter.
-- Which Key: A plugin that shows you the available keybindings.
-- Gruvbox, Everforest, Nightfox, Onedark, Catppuccin: These are color schemes.
-- Cmp and its various plugins: Autocompletion plugins.
-- LuaSnip and Friendly Snippets: Snippet engines.
-- LSP and Mason: Language Server Protocols and their installer.
-- Null-ls: A plugin for formatters and linters.
-- Illuminate: Helps with highlighting references in the code.
-- Treesitter: Syntax highlighting and code understanding.
-- Surround: Allows easy manipulation of "surroundings" in the code.
-- TS AutoTag and Autopairs: Automatically closes XML/HTML tags and pairs of brackets/quotes.
-- Copilot: A code suggestion engine by GitHub.
-- Nvim-Tree: A file explorer.
-- Project: Project navigation.
-- Comment: Easy code commenting.
-- Bufferline: A better bufferline for Neovim.
-- Lualine: A light and configurable statusline/tabline for Neovim.
-- Gitsigns: Shows git signs in the code.
-- ToggleTerm: Terminal integration.
-
+Please note that this README reflects the configuration state as of May 2023. For updates or changes to the plugins after this date, please refer to the respective plugin's documentation.
 ### Installation
 
 To install this configuration, follow these steps:
