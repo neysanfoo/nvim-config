@@ -34,7 +34,6 @@ Here is a brief summary of what each file does:
 - [Gitsigns](https://github.com/lewis6991/gitsigns.nvim): Shows git signs in the code.
 - [ToggleTerm](https://github.com/akinsho/nvim-toggleterm.lua): Terminal integration.
 
-Please note that this README reflects the configuration state as of May 2023. For updates or changes to the plugins after this date, please refer to the respective plugin's documentation.
 ### Installation
 
 To install this configuration, follow these steps:
@@ -51,21 +50,3 @@ No additional setup should be necessary beyond the installation instructions abo
 
 This configuration requires the Neovim text editor, version 0.5 or higher. All other dependencies (i.e., plugins) are managed by the configuration itself.
 
-### Shortcuts
-
-Here are some notable shortcuts defined in the configuration:
-
-- Window navigation: `<C-h/j/k/l>` (navigate left/down/up/right between windows)
-- Resize windows: `<C-Up/Down/Left/Right>` (resize current window)
-- Navigate buffers: `<S-l/h>` (move to next/previous buffer)
-- Clear search highlight: `<Leader>h`
-- Close buffer: `<S-q>`
-- Better paste in visual mode: `p`
-- Save file: `<Leader>w`
-- Stay in indent mode in visual mode: `<, >`
-- Move text up and down in visual block mode: `J, K`
-- Comment code: `<Leader>/`
-
-The `<Leader>` key is defined as the space key (` `).
-
-Please see `keymaps.lua` for the complete list of key mappings.
