@@ -17,22 +17,22 @@ Here is a brief summary of what each file does:
 
 - [Packer](https://github.com/wbthomason/packer.nvim): A package manager for Neovim.
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim): A fuzzy finder and sorter.
-- [Which Key](https://github.com/liuchengxu/vim-which-key): A plugin that shows you the available keybindings.
-- Color Schemes: [Gruvbox](https://github.com/morhetz/gruvbox), [Everforest](https://github.com/sainnhe/everforest), [Nightfox](https://github.com/EdenEast/nightfox.nvim), [Onedark](https://github.com/navarasu/onedark.nvim), [Catppuccin](https://github.com/Pocco81/Catppuccino.nvim)
+- [Which Key](https://github.com/folke/which-key.nvim): A plugin that shows you the available keybindings.
+- Color Schemes: [Gruvbox](https://github.com/ellisonleao/gruvbox.nvim), [Everforest](https://github.com/neanias/everforest-nvim), [Nightfox](https://github.com/EdenEast/nightfox.nvim), [Onedark](https://github.com/ful1e5/onedark.nvim), [Catppuccin](https://github.com/catppuccin/nvim)
 - [Cmp](https://github.com/hrsh7th/nvim-cmp) and its various plugins: Autocompletion plugins.
 - [LuaSnip](https://github.com/L3MON4D3/LuaSnip) and [Friendly Snippets](https://github.com/rafamadriz/friendly-snippets): Snippet engines.
 - [LSP](https://github.com/neovim/nvim-lspconfig) and [Mason](https://github.com/iamcco/mason.nvim): Language Server Protocols and their installer.
 - [Null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim): A plugin for formatters and linters.
 - [Illuminate](https://github.com/RRethy/vim-illuminate): Helps with highlighting references in the code.
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter): Syntax highlighting and code understanding.
-- [Surround](https://github.com/tpope/vim-surround): Allows easy manipulation of "surroundings" in the code.
+- [Surround](https://github.com/kylechui/nvim-surround): Allows easy manipulation of "surroundings" in the code.
 - [TS AutoTag](https://github.com/windwp/nvim-ts-autotag) and [Autopairs](https://github.com/windwp/nvim-autopairs): Automatically closes XML/HTML tags and pairs of brackets/quotes.
 - [Copilot](https://github.com/github/copilot.vim): A code suggestion engine by GitHub.
-- [Nvim-Tree](https://github.com/kyazdani42/nvim-tree.lua): A file explorer.
+- [Nvim-Tree](https://github.com/nvim-tree/nvim-tree.lua): A file explorer.
 - [Project](https://github.com/ahmedkhalf/project.nvim): Project navigation.
-- [Comment](https://github.com/terrortylor/nvim-comment): Easy code commenting.
+- [Comment](https://github.com/numtostr/Comment.nvim): Easy code commenting.
 - [Bufferline](https://github.com/akinsho/nvim-bufferline.lua): A better bufferline for Neovim.
-- [Lualine](https://github.com/hoob3rt/lualine.nvim): A light and configurable statusline/tabline for Neovim.
+- [Lualine](https://github.com/christianchiarulli/lualine.nvim): A light and configurable statusline/tabline for Neovim.
 - [Gitsigns](https://github.com/lewis6991/gitsigns.nvim): Shows git signs in the code.
 - [ToggleTerm](https://github.com/akinsho/nvim-toggleterm.lua): Terminal integration.
 
