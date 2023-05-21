@@ -1,5 +1,3 @@
-Sure, I will start creating the README now. 
-
 ## Neovim Configuration
 
 This is a repository for my personal Neovim configuration. The configuration is set up with a focus on ease of use and productivity.
