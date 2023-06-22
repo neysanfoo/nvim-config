@@ -49,3 +49,6 @@ keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 keymap("n", "<Leader>/", ":lua require('Comment.api').toggle.linewise.current()<CR>", opts)
 keymap("x", "<Leader>/", '<ESC><CMD>lua require("Comment.api").toggle.linewise(vim.fn.visualmode())<CR>', opts)
 
+-- Coderunner --
+vim.api.nvim_set_keymap('n', '<C-i>', ':Run<CR>', { noremap = true, silent = true })
+

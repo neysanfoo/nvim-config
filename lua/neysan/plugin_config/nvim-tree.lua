@@ -5,9 +5,9 @@ end
 
 -- OR setup with some options
 nvim_tree.setup({
-	sort_by = "case_sensitive",
+		sort_by = "case_sensitive",
 	filters = {
-		dotfiles = true,
+		dotfiles = false,
 	},
 	update_focused_file = {
 		enable = true,

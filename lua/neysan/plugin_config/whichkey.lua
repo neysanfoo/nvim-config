@@ -159,7 +159,8 @@ local mappings = {
 	["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
 	["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
 	["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
-	["v"] = { "<cmd>vsplit<cr>", "vsplit" },
+	["v"] = { "<cmd>vsplit<cr>", "Vertical Split" },
+	["i"] = { "<cmd>Run<cr>", "Run File"},
 	f = {
 		name = "Find",
 		f = { "<cmd>Telescope find_files<CR>", "Find Files" },
