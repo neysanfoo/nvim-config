@@ -20,7 +20,6 @@ return require("packer").startup(function(use)
 	use({ "neanias/everforest-nvim" })
 	use({ "EdenEast/nightfox.nvim" })
 	use({ "ful1e5/onedark.nvim" })
-	use({ "catppuccin/nvim", as = "catppuccin" })
 
 	-- Cmp
 	use({ "hrsh7th/nvim-cmp" }) -- The completion plugin
@@ -64,4 +63,8 @@ return require("packer").startup(function(use)
 	use({ "christianchiarulli/lualine.nvim" })
 	use({ "lewis6991/gitsigns.nvim" })
 	use({ "akinsho/toggleterm.nvim" })
+
+	use({ "neysanfoo/coderunner.nvim" })
+
+	use({ "CRAG666/code_runner.nvim" })
 end)

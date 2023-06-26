@@ -6,5 +6,4 @@ else
 	require("neysan.options")
 	require("neysan.packer")
 	require("neysan.plugin_config")
-	require("neysan.coderunner")
 end

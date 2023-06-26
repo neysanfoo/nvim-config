@@ -52,4 +52,8 @@ for _, server in pairs(servers) do
 	lspconfig[server].setup(opts)
 end
 
-lspconfig.clangd.setup{}
+lspconfig.clangd.setup{
+  cmd = {"clangd", "--background-index", "--suggest-missing-includes", "--cross-file-rename", "--header-insertion=iwyu", "--clang-tidy", "--clang-tidy-checks=-*,llvm-*,clang-analyzer-*,bugprone-*,google-*,cppcoreguidelines-*", "--offset-encoding=utf-16"},
+  on_attach = require("neysan.plugin_config.lsp.handlers").on_attach,
+  capabilities = require("neysan.plugin_config.lsp.handlers").capabilities,
+}

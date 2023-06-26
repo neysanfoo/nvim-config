@@ -1,6 +1,7 @@
 require("neysan.plugin_config.autopairs")
 require("neysan.plugin_config.bufferline")
 require("neysan.plugin_config.cmp")
+require("neysan.plugin_config.coderunner")
 require("neysan.plugin_config.colorscheme")
 require("neysan.plugin_config.comment")
 require("neysan.plugin_config.copilot")

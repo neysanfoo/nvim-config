@@ -89,11 +89,6 @@ _G.packer_plugins = {
     path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
-  catppuccin = {
-    loaded = true,
-    path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -118,6 +113,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["code_runner.nvim"] = {
+    loaded = true,
+    path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/code_runner.nvim",
+    url = "https://github.com/CRAG666/code_runner.nvim"
+  },
+  ["coderunner.nvim"] = {
+    loaded = true,
+    path = "/Users/neysanfoo/.local/share/nvim/site/pack/packer/start/coderunner.nvim",
+    url = "https://github.com/neysanfoo/coderunner.nvim"
   },
   ["copilot.vim"] = {
     loaded = true,
