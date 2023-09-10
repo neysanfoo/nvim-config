@@ -6,7 +6,7 @@ local FOCUS_BACK = false
 local filetype_commands = {
 	python = "python3 -u $fullFilePath",
 	c = { "gcc $fullFilePath -o $dir/out", "$dir/./out" },
-	cpp = { "g++ $fullFilePath -o $dir/out", "$dir/./out" },
+	cpp = { "g++ -std=c++11 $fullFilePath -o $dir/out", "$dir/./out" },
 	java = { "javac $fullFilePath", "java -cp .:$dir $fileNameWithoutExt" },
 	javascript = "node $fullFilePath",
 }

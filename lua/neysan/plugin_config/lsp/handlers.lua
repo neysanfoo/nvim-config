@@ -75,6 +75,13 @@ M.on_attach = function(client, bufnr)
 		client.server_capabilities.documentFormattingProvider = false
 	end
 
+	if client.name == "clangd" then
+    client.config.flags = {
+      '-I',
+			'/opt/homebrew/opt/opencv/include/opencv4'
+    }
+	end
+
 	-- if client.name == "sumneko_lua" then
 	-- 	client.server_capabilities.documentFormattingProvider = false
 	-- end
